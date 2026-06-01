@@ -3,13 +3,23 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/Qt/6.10.2/mingw_64/include",
+                "C:/Qt/6.10.2/mingw_64/include/QtCore",
+                "C:/Qt/6.10.2/mingw_64/include/QtGui",
+                "C:/Qt/6.10.2/mingw_64/include/QtWidgets"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
-            ]
+                "_UNICODE",
+                "_USE_MATH_DEFINES"
+            ],
+            "compilerPath": "C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
         }
     ],
     "version": 4
