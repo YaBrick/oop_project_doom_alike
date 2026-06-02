@@ -2,7 +2,7 @@
      width="30%"
      style="padding: 10px">
 
-# << Projeto “Doom-alike engine” >>
+# Projeto “Doom-alike engine”
 
 > Aluno: Iaroslav Pshenichnikov 
 > Professor: Hugo Marcondes

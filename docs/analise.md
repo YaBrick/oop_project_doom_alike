@@ -1,21 +1,18 @@
 # Análise orientada a objeto
-> [!NOTE]
-> A **análise** orientada a objeto consiste na descrição do problema a ser tratado, duas primeiras etapas da tabela abaixo, a definição de casos de uso e a definição do domínio do problema.
 
 ## << Descrição breve do domínio do desafio >>
 
-> Criar um jogo no estilo 2.5D, utilizando OOP
+Criar um jogo no estilo 2.5D, utilizando OOP. Identificar os objetos, a interação entre eles e elaborar a documentação.
 
-## Diagrama UML da estrutura
+## Diagrama de Caso de uso
+
+
+## Diagrama UML das classes
 <img src="OOP_ERD.png" 
      width="30%" 
      style="padding: 10px">
 
- 
 ## Diagrama de Domínio do problema
-
-Elaborar um diagrama conceitual do domínio do problema.
-
 
 <div align="center">
 
