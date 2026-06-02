@@ -13,7 +13,7 @@
 
 <p align=center><strong>SUMÁRIO</strong></p>
 
-[**1. ANÁLISE ORIENTADA A OBJETO**](./analise.md)<br>
-[**2. PROJETO ORIENTADO A OBJETO**](./projeto.md)<br>
-[**3. IMPLEMENTAÇÃO (C++)**](./implementacao.md)<br>
-[**4. TESTES**](./testes.md)<br>
+[**1. ANÁLISE ORIENTADA A OBJETO**](./docs/analise.md)<br>
+[**2. PROJETO ORIENTADO A OBJETO**](./docs/projeto.md)<br>
+[**3. IMPLEMENTAÇÃO (C++)**](./docs/implementacao.md)<br>
+[**4. TESTES**](./docs/testes.md)<br>
