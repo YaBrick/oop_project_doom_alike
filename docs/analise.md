@@ -2,15 +2,15 @@
 > [!NOTE]
 > A **análise** orientada a objeto consiste na descrição do problema a ser tratado, duas primeiras etapas da tabela abaixo, a definição de casos de uso e a definição do domínio do problema.
 
-## Descrição Geral do domínio do problema
+## << Descrição breve do domínio do desafio >>
 
-Descrever de forma geral o domínio do problema.
+> Criar um jogo no estilo 2.5D, utilizando OOP
 
-Possíveis requisitos funcionais e não-funcionais podem ser elencados aqui.
+## Diagrama UML da estrutura
+<img src="OOP_ERD.png" 
+     width="30%" 
+     style="padding: 10px">
 
-## Diagrama de Casos de Uso
-
-Apresentar o diagram de casos de uso, identificando as funcionalidades do sistema assim como os atores envolvidos
  
 ## Diagrama de Domínio do problema
 
@@ -19,6 +19,6 @@ Elaborar um diagrama conceitual do domínio do problema.
 
 <div align="center">
 
-[Retroceder](README.md) | [Avançar](projeto.md)
+[Retroceder](../README.md) | [Avançar](projeto.md)
 
 </div>

@@ -2,18 +2,20 @@
      width="30%"
      style="padding: 10px">
 
-# << Título do projeto >>
+# << Projeto “Doom-alike engine” >>
 
-## << Descrição breve do domínio do problema >>
-
-> Repositório destinado para o desenvolvimento do projeto final da discipliana PRG22107 - Programação orienta a objeto. 
-> 
-> Aluno: Nome do aluno  
+> Aluno: Iaroslav Pshenichnikov 
 > Professor: Hugo Marcondes
 
 <p align=center><strong>SUMÁRIO</strong></p>
 
-[**1. ANÁLISE ORIENTADA A OBJETO**](./docs/analise.md)<br>
-[**2. PROJETO ORIENTADO A OBJETO**](./docs/projeto.md)<br>
-[**3. IMPLEMENTAÇÃO (C++)**](./docs/implementacao.md)<br>
-[**4. TESTES**](./docs/testes.md)<br>
+É uma base para jogo que utiliza o estilo de renderização gráfica 2.5D típico dos jogos Doom 1 e Wolfenstein - https://en.wikipedia.org/wiki/2.5D
+
+Desenvolvido de acordo com os princípios da Programação Orientada a Objetos
+
+| # | Seção |
+|:-:|:------|
+| 1 | [**ANÁLISE ORIENTADA A OBJETO**](./docs/analise.md) |
+| 2 | [**PROJETO ORIENTADO A OBJETO**](./docs/projeto.md) |
+| 3 | [**IMPLEMENTAÇÃO (C++)**](./docs/implementacao.md) |
+| 4 | [**TESTES**](./docs/testes.md) |
