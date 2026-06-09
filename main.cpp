@@ -1,4 +1,5 @@
 #include <QApplication>
+#include <iostream>
 #include <QWidget>
 #include <QPainter>
 #include <QPaintEvent>
@@ -29,8 +30,20 @@ void set_char_params(character_t buff){
 
 
 class Game_logic {
+
     private:
-    
+    bool if_collides_w_character(character_t character_buff){
+        for(int i = 0; i < Walls.size(); i++){
+            if(character_buff.xpos <= std::max(Walls[i].x1, Walls[i].x2) &&
+               character_buff.xpos >= std::min(Walls[i].x1, Walls[i].x2) &&
+               character_buff.ypos <= std::max(Walls[i].y1, Walls[i].y2) &&
+               character_buff.ypos >= std::min(Walls[i].y1, Walls[i].y2) &&
+                < width){
+                return true;
+            }
+        }
+        return false;
+    }
     
 };
 
