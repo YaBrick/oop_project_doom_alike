@@ -6,9 +6,7 @@ Criar um jogo no estilo 2.5D, utilizando OOP. Identificar os objetos, a interaç
 
 ## Diagrama de Caso de uso
 
-
-## Diagrama UML das classes
-<img src="OOP_ERD.png" 
+<img src="OOP_USE_CASE.png" 
      width="30%" 
      style="padding: 10px">
 
