@@ -6,13 +6,13 @@ Criar um jogo no estilo 2.5D, utilizando OOP. Identificar os objetos, a interaç
 
 ## Diagrama de Caso de uso
 
-<img src="OOP_USE_CASE.png" 
+<img src="./img/OOP_USE_CASE.png" 
      width="30%" 
      style="padding: 10px">
 
 ## Diagrama de Domínio do problema
 
-<img src="OOP_PROBLEM_DOMAIN.png" 
+<img src="./img/OOP_PROBLEM_DOMAIN.png" 
      width="30%" 
      style="padding: 10px">
 
