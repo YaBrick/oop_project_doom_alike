@@ -1,4 +1,4 @@
-# Projeto orientado a objeto
+# Projeto
 
 A etapa seguinte após a análise é preparar um diagrama de classes com métodos e variáveis, de acordo com a estrutura Qt
 
