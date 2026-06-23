@@ -5,5 +5,6 @@
       "cmake.mingwSearchDirs": [
           "C:/Qt/Tools/mingw1310_64"
       ],
-      "cmake.generator": "MinGW Makefiles"
+      "cmake.generator": "MinGW Makefiles",
+      "cmake.cmakePath": "cmake"
   }

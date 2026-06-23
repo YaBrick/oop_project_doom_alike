@@ -2,7 +2,7 @@
 
 ## Diagrama UML das classes
 <img src="../img/OOP_ERD.png" 
-     width="30%" 
+     width="60%" 
      style="padding: 10px">
 
 
