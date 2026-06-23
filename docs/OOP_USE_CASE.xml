@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Use Case" id="usecase-doom">
+    <mxGraphModel dx="900" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="sys" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;fontStyle=1;" value="Doom-alike" vertex="1">
+          <mxGeometry x="240" y="160" width="420" height="620" as="geometry" />
+        </mxCell>
+
+        <mxCell id="actUser" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Player" vertex="1">
+          <mxGeometry x="90" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="actQt" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Qt framework" vertex="1">
+          <mxGeometry x="740" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ucMove" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Move character" vertex="1">
+          <mxGeometry x="320" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucRot" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Rotate character" vertex="1">
+          <mxGeometry x="320" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucCol" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Detect collision" vertex="1">
+          <mxGeometry x="320" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ucMap" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="View top-down map" vertex="1">
+          <mxGeometry x="320" y="510" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3d" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="View 3D scene" vertex="1">
+          <mxGeometry x="320" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="eU1" parent="1" source="actUser" target="ucMove" edge="1" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eU2" parent="1" source="actUser" target="ucRot" edge="1" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eU3" parent="1" source="actUser" target="ucMap" edge="1" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eU4" parent="1" source="actUser" target="uc3d" edge="1" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="eQ1" parent="1" source="ucMap" target="actQt" edge="1" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQ2" parent="1" source="uc3d" target="actQt" edge="1" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="eI1" parent="1" source="ucMove" target="ucCol" edge="1" style="endArrow=open;dashed=1;html=1;" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eI2" parent="1" source="ucRot" target="ucCol" edge="1" style="endArrow=open;dashed=1;html=1;" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

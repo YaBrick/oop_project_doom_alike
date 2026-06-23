@@ -1,0 +1,97 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="9X6wUbf69bANkm3oO41r">
+    <mxGraphModel dx="2593" dy="1529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Character" vertex="1">
+          <mxGeometry height="104" width="140" x="280" y="606" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-2" parent="Rcf708A3oGiQwVdr0IRW-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Position/rotation" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-4" parent="Rcf708A3oGiQwVdr0IRW-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="FOV" vertex="1">
+          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-32" parent="Rcf708A3oGiQwVdr0IRW-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Speec" vertex="1">
+          <mxGeometry height="26" width="140" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Game Logic" vertex="1">
+          <mxGeometry height="110" width="140" x="360" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-11" parent="Rcf708A3oGiQwVdr0IRW-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Check for collisions" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-12" parent="Rcf708A3oGiQwVdr0IRW-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Checked position/rotation of the character" vertex="1">
+          <mxGeometry height="58" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Input" vertex="1">
+          <mxGeometry height="78" width="140" x="70" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-15" parent="Rcf708A3oGiQwVdr0IRW-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Movement keys" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-16" parent="Rcf708A3oGiQwVdr0IRW-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Rotation keys" vertex="1">
+          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Video" vertex="1">
+          <mxGeometry height="104" width="140" x="600" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-19" parent="Rcf708A3oGiQwVdr0IRW-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="3D scene" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-20" parent="Rcf708A3oGiQwVdr0IRW-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Map scene" vertex="1">
+          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-39" parent="Rcf708A3oGiQwVdr0IRW-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Render framerate" vertex="1">
+          <mxGeometry height="26" width="140" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-23" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Game environment" vertex="1">
+          <mxGeometry height="70" width="140" x="460" y="606" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-24" parent="Rcf708A3oGiQwVdr0IRW-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Walls position/rotation/width" vertex="1">
+          <mxGeometry height="44" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-28" edge="1" parent="1" source="Rcf708A3oGiQwVdr0IRW-14" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;" target="Rcf708A3oGiQwVdr0IRW-10" value="Send input to">
+          <mxGeometry relative="1" x="-0.3835" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="320" y="520" as="sourcePoint" />
+            <mxPoint x="480" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-29" connectable="0" parent="Rcf708A3oGiQwVdr0IRW-28" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="-12" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-31" edge="1" parent="1" source="Rcf708A3oGiQwVdr0IRW-18" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="Rcf708A3oGiQwVdr0IRW-23" value="Read">
+          <mxGeometry relative="1" width="160" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="340" y="530" as="sourcePoint" />
+            <mxPoint x="500" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-33" edge="1" parent="1" source="Rcf708A3oGiQwVdr0IRW-10" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.446;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="Rcf708A3oGiQwVdr0IRW-23" value="Read">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="320" y="480" as="sourcePoint" />
+            <mxPoint x="480" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-37" edge="1" parent="1" source="Rcf708A3oGiQwVdr0IRW-10" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;" target="Rcf708A3oGiQwVdr0IRW-18" value="Control">
+          <mxGeometry relative="1" x="-0.3966" y="14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="430" y="490" as="sourcePoint" />
+            <mxPoint x="590" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rcf708A3oGiQwVdr0IRW-41" edge="1" parent="1" source="Rcf708A3oGiQwVdr0IRW-10" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;" target="Rcf708A3oGiQwVdr0IRW-1" value="Update">
+          <mxGeometry relative="1" x="-0.0986" y="-23" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="290" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

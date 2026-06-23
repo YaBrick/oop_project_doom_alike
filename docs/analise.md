@@ -12,6 +12,11 @@ Criar um jogo no estilo 2.5D, utilizando OOP. Identificar os objetos, a interaç
 
 ## Diagrama de Domínio do problema
 
+<img src="OOP_PROBLEM_DOMAIN.png" 
+     width="30%" 
+     style="padding: 10px">
+
+
 <div align="center">
 
 [Retroceder](../README.md) | [Avançar](projeto.md)
