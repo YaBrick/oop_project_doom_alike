@@ -1,9 +1,11 @@
-#pragma once
-
 #include <QGraphicsItem>
 #include <QPainter>
 #include <QPainterPath>
 #include <QRectF>
+#include "constants.hpp"
+
+#pragma once
+
 
 // DTO — a snapshot of the character parameters exchanged between Game_logic,
 // Render and the scenes (ERD: returned by get_char_params / taken by set_char_params).
@@ -13,12 +15,6 @@ struct character_t {
     float rotation_angle = 0;   // degrees, 0 = right, grows clockwise
     float fov_angle = 60;
     float speed_px_sec = 2;
-};
-
-// Movement intent for a single frame — result of reading the pressed keys.
-struct input_t {
-    bool fwd = false, back = false, left = false, right = false;
-    bool rot_l = false, rot_r = false;
 };
 
 // The character as a Map-scene item: keeps its state and paints itself.

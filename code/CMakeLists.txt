@@ -12,7 +12,21 @@ qt_standard_project_setup()
 qt_add_executable(doom-alike
     main.cpp
     main.hpp
+    character.cpp
+    character.hpp
+    game_logic.cpp
+    game_logic.hpp
+    render.cpp
+    render.hpp
+    window.cpp
+    window.hpp
     walls.hpp
+    map.cpp
+    map.hpp
+    scene3d.cpp
+    scene3d.hpp
+    constants.hpp
+
 )
 
 target_link_libraries(doom-alike PRIVATE Qt6::Core Qt6::Widgets)
